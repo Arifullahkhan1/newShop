@@ -152,9 +152,11 @@ footer{
 
                             }
                             .icon-badgee{
-                                top: -5px;
-                                right: -px;
-                                padding: var(--distance-1-1) var(--distance-3-3);
+                                top: -3px;
+                                right: -1px;
+                               padding-left: 3px;
+                                height: 13px;
+                                width: 13px;
 
                             }
 
