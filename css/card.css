@@ -1,0 +1,50 @@
+.pic-size{
+    height: 14rem;
+}
+.profile-main{
+    max-width: 40rem;
+    
+    
+}
+.box-size{
+    min-width: 50rem;
+    max-height: 26rem;
+}
+.f-weight{
+    font-weight: 300;
+    
+}
+.f-weightt{
+   font-size: 1.9rem;
+}
+.lm{
+    margin-left: 5rem;
+}
+.text-limit{
+    max-width: 31rem;
+}
+.s-color{
+    color: black;
+}
+.drag-up{
+    margin-top: -3rem;
+}
+
+.card{
+    
+    border: 1px solid green;
+    margin-left: 4rem;
+}
+  /* card pictures*/         
+  .pic-card-size{
+    height: 14rem;
+}    
+.margin-bottom{
+    margin-bottom: 27rem;
+   
+}
+.offer-tag{
+    width: 65px;
+    height:20px;
+    margin-left: -16rem;
+}

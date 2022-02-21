@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8357b40aeb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/search-bar.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/madiaqueries.css">
+    <title>Product-Shop</title>
+</head>
+
+<body>
+    <div class="main-container max-width-container ">
+        <!-- Navigation bar-->
+        <nav class="d-flex justify-content-between   p-4 align-items-center bg-black text-white  mx-auto nav-height  "
+            id="social">
+
+            <div class="dropdown bg-black">
+                <button class=" d-flex  align-items-center  menu-btn-hieght border-radius btn-black text-white px-2"><i
+                        class="fas fa-user text-white user-rm"></i>
+                    <div class=" d-hide-name"> Arifullah</div> <i class="fas fa-sort-down text-white arrrow-lm"></i>
+                </button>
+                <div class=" d-flex align-items-center justify-content-center dropdown-content">
+                    <a class="user-rubric-lm text-white " href="#">Jone Dig</a>
+                    <a class=" text-white" href="#">Kashif </a>
+                    <a class="text-white " href="#">Khan</a>
+                </div>
+            </div>
+            <!-- Med info Navigation bar-->
+            <div class="d-flex justify-content-between  d-none-sm">
+                <div class="d-flex flex-grow align-items-center mb-2">
+                    <i class="fas fa-phone-alt text-white mr-3"></i>
+                    <span class="text-white text-weight"> 800 450 780 234 </span>
+                </div>
+
+                <div class="d-flex flex-grow align-items-center mb-2 ml-4">
+                    <i class="fas fa-envelope text-white mr-3 "></i>
+                    <span class=" text-white text-weight">info@mini.store.se</span>
+                </div>
+
+            </div>
+
+            <!-- Social icons-->
+            <div class="d-flex justify-content-between text-size-lg  ml-sm">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none ">
+                    <i class="fab fa-facebook-square text-white text-bold p-4  text-size-lg face-color" id="face"></i>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none  ">
+                    <i class="fab fa-twitter-square text-white text-bold p-4 text-size-lg  tweet-color" id="tt"></i>
+
+                </a> <a href="#" class="d-flex flex-column align-items-center text-decoration-none ">
+                    <i class="fab fa-instagram-square text-white text-bold p-4 text-size-lg insta-color" id="insta"></i>
+
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none  ">
+                    <i class="fab  fa-pinterest-square text-white text-bold  p-4 text-size-lg p-color"></i>
+
+                </a>
+
+            </div>
+
+        </nav>
+        <!-- logo / search bar / badges-->
+        <div class="d-flex mt-8 mb-8 flex-wrap d-sm-row main-nav d-sm-colum">
+            <!-- justify-content-center -->
+            <!-- logo-->
+
+
+            <div class="mr-4 logo d-flex  align-items-center mb-2">
+                <img class="logo-width mt-4 ml-4" src="images /logo/logo.png" alt="mylogo" id="one">
+            </div>
+
+            <!-- hiden manubar-->
+            <div class="d-none d-sm-block bar-container ">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                    <div
+                        class="d-flex align-items-center justify-content-center   p-4 py-2 shadow-sm border-radius d-sm-block  pl-4  ">
+                        <i class="fas fa-bars  text-dark text-size-lg bars"></i>
+                    </div>
+                    <p class=" text-dark text-size-xs">MENU</p>
+                </a>
+            </div>
+
+            <!-- search bar-->
+
+            <!--  <input type="text" placeholder="Search products"> -->
+
+            <div class="d-flex justify-content-between input-wrapper ser  ">
+                <!-- min+width -->
+                <div class="fa fa-search sm-size"></div>
+                <input type="text" placeholder="Search products">
+
+
+            </div>
+
+
+
+
+            <!-- badges-->
+            <div class="d-flex justify-content-between text-size-lg ml-4 mr-4  badges">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative   ">
+                    <i class="fas fa-heart text-dark  text-size-md sm-size-hear"></i>
+                    <span
+                        class="text-white position-absolute icon-badge text-white circal bg-green border-small-white text-size-xxs text-sm icon-badge-sm ">3</span>
+                    <p class="text-size-xxs text-dark">FAVS</p>
+                </a>
+                <a href="#"
+                    class="d-flex flex-column align-items-center text-decoration-none position-relative  heart-margin  ">
+                    <i class="fas fa-shopping-cart text-dark  text-size-md sm-size-hear"></i>
+                    <span
+                        class="text-white position-absolute icon-badge text-white circal bg-green border-small-white text-size-xxs text-sm icon-badge-sm ">2</span>
+                    <span class="text-size-xxs text-dark">€174.5 </span>
+                </a>
+                <a href="#"
+                    class="d-flex flex-column align-items-center text-decoration-none position-relative  heart-margin  ">
+                    <i class="fas fa-file-invoice-dollar text-dark  text-size-md sm-size-hear"></i>
+                    <span
+                        class="text-white position-absolute icon-badge text-white circal bg-green border-small-white text-size-xxs  text-sm icon-badge-sm">5</span>
+                    <span class="text-size-xxs text-dark">€0.00</span>
+                </a>
+
+            </div>
+        </div>
+        <!-- Line -->
+        <hr class="  d-flex border-small-white "></hr>
+        <!-- list and product cards section-->
+        <!-- product list-->
+        <div class="d-flex  list-card-container ">
+            <div class="d-flex list-top list-size ">
+
+
+                <ul class="  ">
+                    <li><a href="#">
+                            <div class=" "><i class="fas fa-laptop "><span class="ml-2 text-dark ">Computer &
+                                        Accesories</span></i>
+                        </a>
+            </div>
+            </li>
+            <li><a href="#">
+                    <div class=" "><i class="fas fa-tv"><span class="ml-2 text-dark ">TV,Video & Audio</span></i>
+                </a>
+        </div>
+        </li>
+        <li><a href="#">
+                <div class=" "><i class="fas fa-mobile "><span class="ml-2 text-dark ">SmartPhonees & Tablets</span></i>
+            </a>
+    </div>
+    </li>
+    <li><a href="#">
+            <div class=" "><i class="fas fa-camera "><span class="ml-2 text-dark ">Photo Cameras</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class="  "><i class="fas fa-video "><span class="ml-2 text-dark ">Video Cameras</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class=" "><i class="fas fa-headset "><span class="ml-2 text-dark ">Headphones</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class="  "><i class="fas fa-clock "><span class="ml-2 text-dark ">Wearable Electronics</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class="  "><i class="fas fa-print"><span class="ml-2 text-dark ">Printers & Ink</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class=" "><i class="fas fa-gamepad "><span class="ml-2 text-dark ">Videos Games</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class="  "><i class="fas fa-volume-up "><span class="ml-2 text-dark ">Speakers & Home Music</span></i>
+        </a> </div>
+    </li>
+    <li><a href="#">
+            <div class=" "><i class="fas fa-hdd "><span class="ml-2 text-dark ">HDD/SSD Data Storage</span></i>
+        </a> </div>
+    </li>
+    </ul>
+    </div>
+    <!-- cards-->
+
+    <div class="d-flex   flex-wrap  card-holder ">
+        <div class="  d-flex border-color-dark-tran border-sm box-size ml-4 mt-14  ml-12  card-small div-top  f-colum-sm ">
+            <div class="profile-sidebar d-flex  flex-wrap  ">
+                <img class="pic-card-size mr-6 mt-6" src="/images /products/11.jpg " alt="computer ">
+            </div>
+            <div class="profile-main mr-4 ml-8 mt  d-flex flex-column position-relative  flex-wrap">
+                <div class="d-flex position-absolute bg-green text-white offer-tag justify-content-center ">
+                    10% off</div>
+                <h1 class="profilename f-weight text-dark mt-6 text-size-xl s-color">iMac 23 in. <a href="#"
+                        class="text-dark"><samp class=" ml-fit-2 far fa-heart text-size-lg"></samp></a></h1>
+                <h2 class="profilename f-weight f-weightt ">Computer Accessories</h2>
+                <p class="profile-position mt-4 mb-4 text-size-md">$2134.8 </p>
+                <div class="text-limit">
+                    <p class="profile-body ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio facilis eum e
+                        adipisicing elit. Odio facilis eum error e!</p>
+                </div>
+                <a href="#" class="text-dark text-decoration-none">
+                    <div class="shop-cart  fas fa-cart-plus text-size-md mt-6"></div>
+                </a>
+                <div class="rateing d-flex d-inline lh-lg mr-6 text-size-lg drag-up  "><samp
+                        class="ml-fit text-size-lg ">8<samp class="far fa-star text-size-md  ml-2"></samp> </samp></div>
+            </div>
+        </div>
+        <div class=" d-flex border-color-dark-tran border-sm box-size ml-4  mt-14  ml-12 card-small div-top f-colum-sm"
+            tyle="border: 1px rgb(218, 12, 12) solid;">
+            <div class="profile-sidebar d-flex   ">
+                <img class="pic-card-size mr-6 mt-6" src="/images /products/10.jpg " alt="computer ">
+            </div>
+            <div class="profile-main mr-4 ml-8 mt  d-flex flex-column">
+                <h1 class="profilename f-weight text-dark mt-6 text-size-xl s-color">iPrinter v4.4 <a href="#"
+                        class="text-dark"><samp class=" ml-fit-2 far fa-heart text-size-lg"></samp></a></h1>
+                <h2 class="profilename f-weight f-weightt ">Computer Accessories</h2>
+                <p class="profile-position mt-4 mb-4 text-size-md">$1134 </p>
+                <div class="text-limit">
+                    <p class="profile-body ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio facilis eum e
+                        adipisicing elit. Odio facilis eum error e!</p>
+                </div>
+                <a href="#" class="text-dark text-decoration-none">
+                    <div class="shop-cart  fas fa-cart-plus text-size-md mt-6"></div>
+                </a>
+                <div class="rateing d-flex d-inline lh-lg mr-6 text-size-lg drag-up  "><samp
+                        class="ml-fit text-size-lg ">7<samp class="far fa-star text-size-md  ml-2"></samp> </samp>
+                </div>
+            </div>
+        </div>
+        <div class=" d-flex border-color-dark-tran border-sm box-size ml-4 mt-14  ml-12 card-small div-top f-colum-sm"
+            tyle="border: 1px rgb(218, 12, 12) solid;">
+            <div class="profile-sidebar d-flex   ">
+                <img class="pic-card-size mr-6 mt-6" src="/images /products/12.jpg " alt="computer ">
+            </div>
+            <div class="profile-main mr-4 ml-8 mt  d-flex flex-column">
+                <h1 class="profilename f-weight text-dark mt-6 text-size-xl s-color">Mouse v6.1 <a href="#"
+                        class="text-dark"><samp class=" ml-fit-2 far fa-heart text-size-lg"></samp></a></h1>
+                <h2 class="profilename f-weight f-weightt ">Computer Accessories</h2>
+                <p class="profile-position mt-4 mb-4 text-size-md">$149 </p>
+                <div class="text-limit">
+                    <p class="profile-body ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio facilis eum e
+                        adipisicing elit. Odio facilis eum error e!</p>
+                </div>
+                <a href="#" class="text-dark text-decoration-none">
+                    <div class="shop-cart  fas fa-cart-plus text-size-md mt-6"></div>
+                </a>
+                <div class="rateing d-flex d-inline lh-lg mr-6 text-size-lg drag-up  "><samp
+                        class="ml-fit text-size-lg ">9<samp class="far fa-star text-size-md  ml-2"></samp> </samp>
+                </div>
+            </div>
+        </div>
+
+        <div class=" d-flex border-color-dark-tran border-sm box-size ml-4 mt-14  ml-12 card-small div-top f-colum-sm"
+            tyle="border: 1px rgb(218, 12, 12) solid;">
+            <div class="profile-sidebar d-flex   ">
+                <img class="pic-card-size mr-6 mt-6" src="/images /products/14.jpg " alt="computer ">
+            </div>
+            <div class="profile-main mr-4 ml-8 mt  d-flex flex-column">
+                <h1 class="profilename f-weight text-dark mt-6 text-size-xl s-color">Instas Cami. <a href="#"
+                        class="text-dark"><samp class=" ml-fit-2 far fa-heart text-size-lg"></samp></a></h1>
+                <h2 class="profilename f-weight f-weightt ">Computer Accessories</h2>
+                <p class="profile-position mt-4 mb-4 text-size-md">$2134.8 </p>
+                <div class="text-limit">
+                    <p class="profile-body ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio facilis eum e
+                        adipisicing elit. Odio facilis eum error e!</p>
+                </div>
+                <a href="#" class="text-dark text-decoration-none">
+                    <div class="shop-cart  fas fa-cart-plus text-size-md mt-6"></div>
+                </a>
+                <div class="rateing d-flex d-inline lh-lg mr-6 text-size-lg drag-up  "><samp
+                        class="ml-fit text-size-lg ">6<samp class="far fa-star text-size-md  ml-2"></samp> </samp>
+                </div>
+            </div>
+        </div>
+        <div class=" d-flex border-color-dark-tran border-sm box-size ml-4 mt-14  ml-12 card-small f-colum-sm "
+            tyle="border: 1px rgb(218, 12, 12) solid;">
+            <div class="profile-sidebar d-flex   ">
+                <img class="pic-card-size mr-6 mt-6" src="/images /products/07.jpg " alt="computer ">
+            </div>
+            <div class="profile-main mr-4 ml-8 mt  d-flex flex-column">
+                <h1 class="profilename f-weight text-dark mt-6 text-size-xl s-color">iWatch v5.5 <a href="#"
+                        class="text-dark"><samp class=" ml-fit-2 far fa-heart text-size-lg"></samp></a></h1>
+                <h2 class="profilename f-weight f-weightt ">Computer Accessories</h2>
+                <p class="profile-position mt-4 mb-4 text-size-md">$3000</p>
+                <div class="text-limit">
+                    <p class="profile-body ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Odio facilis eum e
+                        adipisicing elit. Odio facilis eum error e!</p>
+                </div>
+                <a href="#" class="text-dark text-decoration-none">
+                    <div class="shop-cart  fas fa-cart-plus text-size-md mt-6"></div>
+                </a>
+                <div class="rateing d-flex d-inline lh-lg mr-6 text-size-lg drag-up  "><samp
+                        class="ml-fit text-size-lg ">9<samp class="far fa-star text-size-md  ml-2"></samp> </samp>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+
+
+    <!-- Footer-->
+    <footer>
+        <hr class="  d-flex border-small-white  ">
+    </footer>
+
+    </div>
+
+
+</body>
+
+</html>

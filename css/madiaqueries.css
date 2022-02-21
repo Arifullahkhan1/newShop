@@ -1,0 +1,248 @@
+
+   
+@media screen and (max-width: 41.6875em) {
+
+    .d-none-sm{
+        display: none;
+    }
+    .d-sm-block{
+        display: block;
+    }
+    .d-sm-colum{
+       
+        justify-content: center; 
+         align-items: center;
+    }
+   
+   
+    .face-color{
+       color: blueviolet;
+       
+    }
+    .insta-color{
+        color: brown;
+    }
+    .tweet-color{
+       color: burlywood;
+    }
+   
+   .ser{
+       min-width: 80%;
+      height: 4rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+       order: 1;
+   }
+  
+   .text-size-xxs{
+       font-size: 1rem;
+      
+   }
+   
+    .text-size-xs{
+        margin-top: -7px;
+    }
+    .bars{
+        margin-bottom: 5px;
+        font-size: 13px;
+
+    }
+   .bar-container{
+       margin-top: -7px;
+   }
+   .list-card-container{
+       flex-direction: column;
+       
+   }
+   .list-size{
+       min-width: 100%;
+   }
+   .box-size{
+    min-width: 95%;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 3px;
+   
+   height: 200px;
+   justify-items: center;
+
+   }
+   .pic-card-size{
+       width: 20rem;
+       height: 20rem;
+       margin-right: 10rem;
+
+
+   }
+   .card-holder{
+       
+       min-width: 100%;
+  
+
+   }
+   .offer-tag{
+       margin-top: -5px;
+       margin-left: -260px;
+   }
+   
+}
+@media screen and (max-width: 37.5em){
+    .f-colum-sm{
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        
+    }
+    .box-size{
+        min-height: 50rem;
+   
+  
+     }
+
+
+}
+@media screen and (max-width: 25.875em){
+    
+    .d-none-sm{
+        display: none;
+    }
+    .d-sm-colum{
+          
+        align-items: center;
+    }
+   
+    .ser{
+        order: 3;
+        margin-top:  10px; 
+    }
+    .logo{
+        order: 1;
+        min-width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+        
+       
+    }
+    .bar-container{
+    
+        order:2 ;
+       
+    }
+    .badges{
+        order: 2;
+       
+    }
+   
+       .offer-tag{
+        margin-top: -173px;
+        margin-left: -43px;
+    }
+    .d-hide-name{
+        display: none;
+    }
+    .f-colum-sm{
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        
+    }
+    .box-size{
+        min-height: 50rem;
+   
+  
+     }
+    }
+
+@media screen and (max-width: 22.5em){
+    .d-none-sm{
+        display: none;
+    }
+    .d-sm-colum{
+          
+        align-items: center;
+    }
+   
+    .ser{
+        order: 3;
+        margin-top:  10px; 
+    }
+    .logo{
+        order: 1;
+        min-width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+        
+       
+    }
+    .bar-container{
+    
+        order:2 ;
+       
+    }
+    .badges{
+        order: 2;
+       
+    }
+   
+       .offer-tag{
+        margin-top: -150px;
+        margin-left: px;
+    }
+    .d-hide-name{
+        display: none;
+    }
+    .f-colum-sm{
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        
+    }
+    .box-size{
+        min-height: 50rem;
+   
+  
+     }
+    }
+@media screen and (max-width: 48em){ /**777px/16px= 56.25em*/
+    
+
+    
+    .d-sm-colum{
+          
+        align-items: center;
+        
+    }
+   
+    .box-size{
+        min-width: 97%;
+        flex-direction: row;
+       
+        
+        margin-right: 4rem;
+         height: 250px;
+        margin-left: 19px;
+       
+       
+    
+       }
+       .offer-tag{
+        margin-top: -1px;
+        margin-left: -260px;
+    }
+   
+   
+    .list-card-container{
+        flex-direction: column;
+        
+    }
+ .list-size{
+        min-width: 100%;
+    }
+    
+    
+    .pic-card-size{
+        width: 20rem;
+        height: 20rem;
+        margin-right: 4rem;
+    }
+}
