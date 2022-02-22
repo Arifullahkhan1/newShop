@@ -85,6 +85,10 @@
        margin-top: -5px;
        margin-left: -260px;
    }
+   body{
+
+    height: 150vh;
+}
    
 }
 @media screen and (max-width: 37.5em){
@@ -99,6 +103,11 @@
    
   
      }
+     body{
+
+        height: 150vh;
+    }
+
 
 
 }
@@ -149,9 +158,11 @@
     }
     .box-size{
         min-height: 50rem;
-   
-  
-     }
+   }
+   body{
+
+       height: 150vh;
+   }
     }
 
 @media screen and (max-width: 22.5em){
@@ -203,6 +214,10 @@
    
   
      }
+     body{
+
+        height: 150vh;
+    }
     }
 @media screen and (max-width: 48em){ /**777px/16px= 56.25em*/
     
@@ -245,5 +260,9 @@
         width: 20rem;
         height: 20rem;
         margin-right: 4rem;
+    }
+    body{
+
+        height: 150vh;
     }
 }

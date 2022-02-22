@@ -47,15 +47,7 @@
                             .text-weight{
                                 font-weight: 200;
                             }
-footer{
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/ 
-    height: 40px;
-    
-}
+
 
 
 
@@ -213,6 +205,15 @@ footer{
     height: 2rem;
 }
 
-             
+footer{
+     position: fixed;
+     padding: 10px 10px 0px 10px;
+     bottom: 0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.05);
+     /* Height of the footer*/ 
+     height: 40px;
+     
+ }       
                             
                            

@@ -19,7 +19,7 @@
       line-height: 1.6;
       color: var(--color-dark);
       font-size: var(--display-sm);
-      min-height: 100vh;
+      height: 150vh;
     }
   .h1,h2,h3,h4,h5,h6.h1,h2,h3,h4,h5,h6,span{ font-family: "Dosis","Open Sansi",sans-serif; font-weight: 700; letter-spacing: .05rem;}
    .h1,h1{font-size: var(--distance-13);}

@@ -28,10 +28,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #ddd0ce;
+    background: rgba(0, 0, 0, 0.05);
     padding: 0.5rem;
     border-radius: 0.1rem;
-    color: white;
+    color: black;
     flex: 1; 
     
     /*box-shadow: 0.25rem 0.25rem 0rem #ddd0ce;*/
@@ -40,15 +40,16 @@
   input {
     margin: 0 0.5rem 0 0.5rem;
     width: 99%;
-    border: 1px #ddd0ce solid;
+    border: 1px rgba(0, 0, 0, 0.05);
     outline: none;
-    background: #ddd0ce;
-    color: white;
+    background: rgba(0, 0, 0, 0.05);
+    color: black;
     flex: 1; 
     
    
   }
   
   ::placeholder {
-    color:darkgrey;
+    color:black;
+    background-color: rgba(0, 0, 0, 0.05);
   }
